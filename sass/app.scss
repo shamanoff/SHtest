@@ -599,3 +599,59 @@ textarea::-webkit-input-placeholder{
 
 }
 
+//end of index page---------------------------
+
+//about page------------------------------------
+
+#wrapper_banner_about{
+
+  width:100%;
+  height:24rem;
+  min-height: 24rem;
+  //background-color: gray;
+  padding-top: 8.5rem;
+  background-image: url(../slice/bg_1.jpg);
+  background-size: cover;
+  background-position:  top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  position:relative;
+
+
+}
+
+#panel{
+  background-color: $darkBlue;
+  opacity: 0.9;
+  width: 25rem;
+  height:6rem;
+  padding: 1rem 2rem 1rem 1rem;
+
+}
+#panel h1{
+  font-family: $fontFamily;
+  color: white;
+  font-size:3rem;
+  font-weight:900;
+  position: relative;
+  float: right;
+  padding-top:.5rem;
+
+
+}
+
+#panel img{
+  position: relative;
+  float: right;
+  padding-left: 1rem;
+
+
+}
+
+#wrapper_content_admin{
+  width:100%;
+  height:80rem;
+
+}
