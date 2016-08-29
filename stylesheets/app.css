@@ -1,0 +1,578 @@
+@font-face {
+  font-family: "Heebo-Regular";
+  src: url('/fonts/Heebo-Regular.ttf?1465938000') format('truetype');
+}
+/* line 16, ../sass/app.scss */
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/*@include font-face("Heebo-Bold",
+        font-files("Heebo-Bold.ttf"));
+
+@include font-face("Heebo-Black",
+font-files("Heebo-Black.ttf"));
+
+@include font-face("Heebo-Light",
+font-files("Heebo-Light.ttf"));*/
+/* line 40, ../sass/app.scss */
+.top-bar {
+  background-color: #286dac;
+  color: white;
+  height: 6rem;
+  width: 100%;
+}
+
+/* line 48, ../sass/app.scss */
+.top-bar-right {
+  padding-top: .5rem;
+  padding-left: .5rem;
+  float: right;
+}
+
+/* line 56, ../sass/app.scss */
+#ioceaLogo {
+  height: 3.5rem;
+  padding-right: 1rem;
+}
+
+/* line 61, ../sass/app.scss */
+#shefiLogo {
+  height: 3rem;
+  padding-right: 1rem;
+}
+
+/* line 65, ../sass/app.scss */
+#top-bar-left, #top-bar-left-hidden {
+  float: left;
+  text-align: center;
+  padding: 0.8rem 0 0 1.5rem;
+  font-size: 1.5em;
+  color: white;
+}
+
+/* line 72, ../sass/app.scss */
+#topText1, #topText1b {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* line 77, ../sass/app.scss */
+#topText2, #topText2b {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  color: white;
+}
+
+/* line 84, ../sass/app.scss */
+#telephoneIcon, #telephoneIcon-hidden {
+  float: left;
+  font-size: 3rem;
+  color: white;
+}
+
+/* line 90, ../sass/app.scss */
+#top-bar-left-hidden {
+  padding-top: 5rem;
+}
+
+/* line 95, ../sass/app.scss */
+.menu a {
+  color: #141414;
+  text-decoration: none;
+}
+
+/* line 99, ../sass/app.scss */
+.menu .active a {
+  color: white;
+  text-decoration: none;
+  background-color: #82bdf7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 110, ../sass/app.scss */
+.menu a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #82bdf7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 121, ../sass/app.scss */
+#navigation li {
+  max-width: 8rem;
+}
+
+/* line 124, ../sass/app.scss */
+#navigation {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* line 132, ../sass/app.scss */
+.top-bar-right > ul > .divider, .top-bar-section > ul > [role="separator"] {
+  border-right: solid 1px #bcbcbc;
+}
+
+/* line 137, ../sass/app.scss */
+#navWrapper {
+  height: auto;
+  vertical-align: middle;
+  border-bottom: #efeded solid 4px;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 148, ../sass/app.scss */
+.title-bar {
+  background-color: #286dac;
+}
+
+/* line 152, ../sass/app.scss */
+#hamburger {
+  float: left;
+  margin-top: .5rem;
+}
+
+/* line 156, ../sass/app.scss */
+#ioceaLogo-medium {
+  height: 2rem;
+}
+
+/* line 159, ../sass/app.scss */
+#shefiLogo-medium {
+  height: 2rem;
+}
+
+/*#heroWrapper{
+  width: 100%;
+  min-height: 37rem;
+  height:auto;
+}*/
+/* line 172, ../sass/app.scss */
+#heroContent {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+/* line 178, ../sass/app.scss */
+#heroContent p {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #888888;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 190, ../sass/app.scss */
+#heroPic1 {
+  width: 100%;
+  height: 500px;
+  padding-top: 30rem;
+  padding-bottom: 0rem;
+  background-image: url(../slice/banner_p_1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 207, ../sass/app.scss */
+#heroPreSlogan {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #82bdf7;
+  font-weight: 600;
+}
+
+/* line 213, ../sass/app.scss */
+#heroSubSlogan {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #141414;
+  font-weight: 600;
+}
+
+/* line 224, ../sass/app.scss */
+#heroContent2 {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+/* line 230, ../sass/app.scss */
+#heroContent2 p {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #888888;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 242, ../sass/app.scss */
+#heroPic2 {
+  width: 100%;
+  height: 500px;
+  padding-top: 30rem;
+  padding-bottom: 0rem;
+  background-image: url(../slice/shutterstock_92397412.jpg);
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 260, ../sass/app.scss */
+#heroPreSlogan2 {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #82bdf7;
+  font-weight: 600;
+}
+
+/* line 266, ../sass/app.scss */
+#heroSubSlogan2 {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #141414;
+  font-weight: 600;
+}
+
+/* line 275, ../sass/app.scss */
+#bigSlide {
+  background-image: url("../images/shutterstock_237302122.jpg");
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  box-shadow: 0px 0px 300px 300px rgba(0, 0, 0, 0.3) inset;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 306, ../sass/app.scss */
+#bigSlide h1 {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+/* line 312, ../sass/app.scss */
+#bigSlide p {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+/* line 317, ../sass/app.scss */
+#bigSlide li {
+  padding-top: 1rem;
+}
+
+/* line 327, ../sass/app.scss */
+#contentWrapper {
+  width: 100%;
+  height: auto;
+  background-color: #efeded;
+}
+
+/* line 333, ../sass/app.scss */
+#articlesWrapper {
+  width: 100%;
+  height: 25rem;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  clear: both;
+}
+
+/* line 344, ../sass/app.scss */
+#box1 {
+  background-image: url("../images/shutterstock_237302122.jpg");
+  overflow: hidden;
+  width: 100%;
+  height: 9rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 354, ../sass/app.scss */
+#box2 {
+  background-image: url("../images/shutterstock_257069272.jpg");
+  overflow: hidden;
+  width: 100%;
+  height: 9rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 364, ../sass/app.scss */
+#box3 {
+  background-image: url("../images/shutterstock_268450493.jpg");
+  overflow: hidden;
+  width: 100%;
+  height: 9rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 376, ../sass/app.scss */
+.callout {
+  background-color: #fff;
+}
+
+/* line 379, ../sass/app.scss */
+#articlesWrapper h5 {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #141414;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* line 389, ../sass/app.scss */
+.wrapperBox {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 394, ../sass/app.scss */
+.in {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #888888;
+  line-height: 1.2rem;
+  padding-top: 1.5rem;
+}
+
+/* line 405, ../sass/app.scss */
+#contactForm {
+  padding: 1rem 1.5rem .5rem 1.5rem;
+  margin: 1rem 0 1rem 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6296c9+1,82bdf6+100 */
+  background: #6296c9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #6296c9 1%, #82bdf6 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #6296c9 1%, #82bdf6 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #6296c9 1%, #82bdf6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6296c9', endColorstr='#82bdf6',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 421, ../sass/app.scss */
+#contactForm h5 {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+/* line 427, ../sass/app.scss */
+#contactForm #buttonSend {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  color: white;
+  font-size: 1rem;
+  width: 8rem;
+}
+
+/* line 437, ../sass/app.scss */
+#req {
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #141414;
+  padding-left: 2.6rem;
+}
+
+/* line 443, ../sass/app.scss */
+form input::-webkit-input-placeholder {
+  color: #141414 !important;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+/* line 450, ../sass/app.scss */
+textarea::-webkit-input-placeholder {
+  color: #141414 !important;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+/* line 459, ../sass/app.scss */
+#picturePlaceholder {
+  background-image: url(../slice/manPic.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/* line 465, ../sass/app.scss */
+#h2-Title-1 {
+  color: #82bdf7;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 5rem;
+}
+
+/* line 474, ../sass/app.scss */
+#h2-Title-2 {
+  color: #141414;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* line 482, ../sass/app.scss */
+#p2-para {
+  color: #141414;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+/* line 494, ../sass/app.scss */
+#logosWrapper {
+  width: 100%;
+  min-height: 6rem;
+  max-height: 20rem;
+  margin-top: 1rem;
+  padding: 2rem 0 2rem 0;
+}
+
+/* line 502, ../sass/app.scss */
+#footerWrapper {
+  width: 100%;
+  height: auto;
+  background-color: #4c4c4c;
+  padding: 2rem 0 2rem 0;
+}
+
+/* line 510, ../sass/app.scss */
+#logoPartners {
+  color: #82bdf7;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+/* line 520, ../sass/app.scss */
+#Ayalon {
+  position: relative;
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+
+/* line 527, ../sass/app.scss */
+#bar {
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+
+/* line 533, ../sass/app.scss */
+#menuFooter a {
+  display: inline-table;
+  color: white;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+/* line 540, ../sass/app.scss */
+#footerCopy {
+  display: inline-table;
+  color: white;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* line 547, ../sass/app.scss */
+#closeHidden {
+  color: white;
+}
+
+/* line 555, ../sass/app.scss */
+#offCanvas {
+  background-color: #286dac;
+  padding-top: 3rem;
+  padding-right: .5rem;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* line 566, ../sass/app.scss */
+#vertical menu {
+  width: 100%;
+}
+
+/* line 567, ../sass/app.scss */
+#hiddenSideMenu a {
+  position: relative;
+  color: white;
+  font-family: "Heebo-Regular", Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+/* line 574, ../sass/app.scss */
+#hiddenSideMenu li {
+  border-bottom: solid 1px #4488cc;
+  padding: .2rem 0 .2rem 0;
+}
+
+/* line 580, ../sass/app.scss */
+.items {
+  padding-right: .5rem;
+}
+
+/* line 584, ../sass/app.scss */
+#line {
+  border-bottom: #efeded solid 4px;
+}
