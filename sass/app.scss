@@ -5,18 +5,22 @@ $lightBlue: #82bdf7 ;
 $darkBlue: #286dac ;
 $contentBG: #efeded ;
 
+@import 'https://fonts.googleapis.com/css?family=Heebo:300,400,700,900';
 
 
 @import "compass/css3";
 
-@include font-face("Heebo-Regular",
+/*@include font-face("Heebo",
         font-files("Heebo-Regular.ttf"
-        ));
+
+        ));*/
+
 
 body{
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
 
 
 /*@include font-face("Heebo-Bold",
@@ -30,7 +34,8 @@ font-files("Heebo-Light.ttf"));*/
 
 
 
-$fontFamily: "Heebo-Regular",Helvetica, sans-serif;
+$fontFamily: "Heebo",Helvetica, sans-serif;
+
 
 
 
@@ -491,12 +496,17 @@ textarea::-webkit-input-placeholder{
 
 //footer-----------------------------------------------------------
 
+
 #logosWrapper{
+
   width:100%;
   min-height: 6rem;
   max-height: 20rem;
   margin-top: 1rem;
   padding: 2rem 0 2rem 0;
+  vertical-align: middle;
+
+
 }
 
 #footerWrapper{
@@ -510,17 +520,20 @@ textarea::-webkit-input-placeholder{
 #logoPartners{
   color:$lightBlue;
   font-family:$fontFamily;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 600;
 
-  padding-bottom: 1rem;
+
+  padding-bottom: 3rem;
 
 }
 
+
 #Ayalon{
   position: relative;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-right: 2rem;
+
 
 }
 
